@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "w-progressbar": "/components/w-progressbar/w-progressbar",
+    "w-lyric": "/components/w-lyric/w-lyric"
+  },
+  "disableScroll": true
+}

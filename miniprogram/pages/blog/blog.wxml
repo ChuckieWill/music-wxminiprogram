@@ -1,0 +1,40 @@
+<!--miniprogram/pages/blog/blog.wxml-->
+<!-- 发现界面 -->
+<view class="container">
+  <!-- 1 头部 -->
+  <view class="header">
+    <!-- 1.1 发布 -->
+    <view class="publish-container" bind:tap="onPublish">
+      <i class="iconfont icon-fabu"></i>
+    </view>
+    <!-- 1.2 搜索 -->
+    <view class = "search-container">
+      <w-search iconfont="iconfont" 
+      icon-sousuo="icon-sousuo"
+      bind:search="onSearch" />
+    </view>
+  </view>
+
+  <!-- 2 blog列表 -->
+  <view class="blog-list">
+    <block wx:for="{{blogList}}" wx:key="_id">
+      <view class="blog-panel" >
+        <w-blogcard blog="{{item}}"  
+        data-blogId = "{{item._id}}"
+        bind:tap="goComment"/>
+        <w-blogctrl
+        blogId = "{{item._id}}"
+        blog = "{{item}}"
+        iconfont = "iconfont"
+        icon-fenxiang = "icon-fenxiang"
+        icon-pinglun = "icon-pinglun"/>
+      </view>
+    </block>
+  </view>
+
+
+  <!-- 3 底部 -->
+  <w-login modelShow="{{modelShow}}"
+           bind:loginsuccess="onLoginSuccess"
+           bind:loginfail="onLoginFail"/>
+</view>

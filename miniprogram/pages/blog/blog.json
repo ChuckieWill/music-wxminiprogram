@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "w-search": "/components/w-search/w-search",
+    "w-bottommodel": "/components/w-bottommodel/w-bottommodel",
+    "w-login": "/components/w-login/w-login",
+    "w-blogcard": "/components/w-blogcard/w-blogcard",
+    "w-blogctrl": "/components/w-blogctrl/w-blogctrl"
+  },
+  "navigationBarTitleText": "发现",
+  "enablePullDownRefresh": true
+}

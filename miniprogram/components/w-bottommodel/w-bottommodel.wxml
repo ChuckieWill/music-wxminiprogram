@@ -1,0 +1,8 @@
+<!-- 底部弹出层 -->
+<view class="model" hidden="{{!modelShow}}">
+  <view class="panel">
+    <i class="iconfont icon-shanchu1" bind:tap="onClose"/>
+    <!-- 插槽 --具名插槽-->
+    <slot name="model-content"></slot>
+  </view>
+</view>

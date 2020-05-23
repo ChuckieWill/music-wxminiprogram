@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "w-bottommodel": "/components/w-bottommodel/w-bottommodel"
+  }
+}

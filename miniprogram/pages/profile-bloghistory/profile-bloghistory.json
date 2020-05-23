@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "w-blogcard": "/components/w-blogcard/w-blogcard",
+    "w-blogctrl": "/components/w-blogctrl/w-blogctrl"
+  },
+  "navigationBarTitleText": "我的发现",
+  "enablePullDownRefresh": true
+}

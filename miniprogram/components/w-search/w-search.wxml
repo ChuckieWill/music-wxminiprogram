@@ -1,0 +1,9 @@
+<!-- 搜索框 -->
+<view class="container">
+  <i class="iconfont icon-sousuo  find"/>
+  <input class="bar" 
+         placeholder="{{placeholder}}" 
+         placeholder-class="in-bar"
+         bindinput="onInput"></input>
+  <button class="search" bindtap="onSearch">搜索</button>
+</view>
