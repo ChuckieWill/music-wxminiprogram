@@ -8,7 +8,7 @@ const db = wx.cloud.database()
 
 const rp = require('request-promise')
 
-const URL = 'http://musicapi.xiecheng.live/personalized'
+const URL = ''
 
 const playlistCollection = db.collection('playlist')
 
