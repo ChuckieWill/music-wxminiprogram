@@ -5,7 +5,7 @@ const TcbRouter = require('tcb-router')
 
 const rp = require('request-promise')
 
-const BASE_URL = 'http://musicapi.xiecheng.live'
+const BASE_URL = ''
 
 cloud.init()
 
